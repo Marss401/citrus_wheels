@@ -43,10 +43,6 @@ const PageRoutes = createBrowserRouter([
                 element: <Product />,
             },
             {
-                path: "/Product/:id",
-                element: <SingleProduct />,
-            },
-            {
                 path: "/rentcars",
                 element: <RentCars />,
             },
@@ -57,9 +53,14 @@ const PageRoutes = createBrowserRouter([
         ],
         errorElement: <ErrorPage />,
     },
-]);
+],
+{
+    future: {
+      v7_startTransition: true, // Enable early adoption of v7 behavior
+    },
+  });
 return(
-    <main className="">
+    <main className="bg-light">
         <RouterProvider router={PageRoutes}></RouterProvider>
     </main>
 )
