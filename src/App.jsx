@@ -53,12 +53,7 @@ const PageRoutes = createBrowserRouter([
         ],
         errorElement: <ErrorPage />,
     },
-],
-{
-    future: {
-      v7_startTransition: true, // Enable early adoption of v7 behavior
-    },
-  });
+]);
 return(
     <main className="bg-light">
         <RouterProvider router={PageRoutes}></RouterProvider>
