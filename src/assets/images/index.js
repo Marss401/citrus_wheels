@@ -19,6 +19,8 @@ import carWheels10 from "./car-wheels10.jpg";
 import carWheels11 from "./car-wheels11.jpg";
 import carWheels12 from "./car-wheels12.jpg";
 import carWheels13 from "./car-wheels13.jpg";
+import launch from "./undraw_maker-launch_fwzi.svg"
+import play from './undraw_press-play_oqq2.svg'
 
 
 
@@ -44,4 +46,6 @@ export{
     carWheels8,
     carWheels9,
     carWheels8Removebg,
+    launch,
+    play
 }

@@ -1,4 +1,3 @@
-import React from 'react'
 import { carWheels8Removebg } from '../assets/images'
 
 export default function Home() {
